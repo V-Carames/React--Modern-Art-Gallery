@@ -1,1 +1,11 @@
 @use "base/resets";
+@use "base/base";
+@use "base/typography";
+@use "base/colors";
+@use "base/transitions";
+
+@use "components/buttons/buttons";
+
+@use "components/hero/hero";
+@use "components/hero/heroImg";
+@use "components/hero/heroContent";
