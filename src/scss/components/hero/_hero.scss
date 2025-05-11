@@ -1,0 +1,24 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto 7.5rem auto;
+}
+
+@media (min-width: 43.75em) {
+  .hero__container {
+    flex-direction: row;
+
+    margin-bottom: 5.56rem;
+  }
+}
+
+@media (min-width: 68.75em) {
+  .hero__container {
+    position: relative;
+
+    margin-bottom: 11.25rem;
+  }
+}
