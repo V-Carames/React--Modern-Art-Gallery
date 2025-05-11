@@ -1,0 +1,28 @@
+.gallery__picture {
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &--one {
+    grid-area: area-two;
+    margin-bottom: 1.56rem;
+  }
+
+  &--two {
+    grid-area: area-three;
+    margin-bottom: 0.94rem;
+  }
+
+  &--three {
+    grid-area: area-four;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 43.75rem) {
+  .gallery__picture {
+    margin-bottom: 0;
+  }
+}
