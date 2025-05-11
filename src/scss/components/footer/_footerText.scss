@@ -1,0 +1,25 @@
+.footer__text {
+  font-size: 1rem;
+  font-family: var(--font-family-two);
+  font-weight: 300;
+  line-height: 1.63;
+
+  color: var(--quaternary-color);
+}
+
+@media (min-width: 43.75em) {
+  .footer__text {
+    max-width: 27ch;
+    margin-right: 4.19rem;
+  }
+}
+
+@media (min-width: 68.75em) {
+  .footer__text {
+    max-width: 37ch;
+
+    font-size: 1.13rem;
+    line-height: 1.56;
+    margin-right: 8.13rem;
+  }
+}

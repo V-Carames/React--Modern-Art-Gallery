@@ -1,0 +1,16 @@
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  &__icon {
+    fill: var(--quaternary-color);
+
+    @media (hover: hover) {
+      &:is(:hover, :focus, :focus-visible) {
+        fill: var(--primary-color);
+        transition: var(--transition);
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  background: var(--secondary-color);
+  padding: 3rem 2rem;
+}
+
+.footer__container {
+  max-width: 69.38rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.38rem;
+
+  margin: 0 auto;
+}
+
+@media (min-width: 43.75em) {
+  .footer {
+    padding: 3.5rem 2.5rem;
+  }
+
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 68.75em) {
+  .footer {
+    padding: 5rem 10.31rem;
+  }
+}
